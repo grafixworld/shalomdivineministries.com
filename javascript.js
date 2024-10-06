@@ -1,6 +1,6 @@
 function ShowSidebar(){
         const sidebar = document.querySelector('.sidebar')
-        sidebar.style.height='390px'
+        sidebar.style.height='430px'
     }
     function HideSidebar(){
         const sidebar = document.querySelector('.sidebar')
@@ -40,3 +40,5 @@ function ShowSidebar(){
             }
         }
       });
+
+   

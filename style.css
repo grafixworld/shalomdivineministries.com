@@ -4,11 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
     font-family: "Jost", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+ 
 }
 :root{
     --blue: rgb(14, 129, 158);
@@ -18,8 +18,7 @@
 }
 
 body{
-    font-family: 'jost';
-    
+    font-family: 'jost';    
 }
 
 .bg1{
@@ -382,7 +381,7 @@ margin: 50px;
 .page2 button{
     width: 250px;
     height: 50px;
-    font-size: 20px;
+    font-size: 17px;
     border: none;
     background-color: var(--box-color);
     color: white;
@@ -391,8 +390,15 @@ margin: 50px;
 
 .page2 button a{
     color: white;
-    transition: 5.s ease-in;
+    transition: .5s ease-in-out;
 }
+
+.page2 button a:hover{
+   letter-spacing: 2px;
+}
+
+
+
 
 .page2 img{
     width: 100%;
@@ -624,7 +630,7 @@ font-weight: 500;
 
  .page4 img{
     width: 100%;
-    height: 300px;
+   
  }
 
  .page4 h1{
@@ -952,6 +958,7 @@ font-weight: 500;
     width: 90%;
     height: 300px;
     background: var(--blue);
+    margin-bottom: 100px;
 }
 
 .page6 .love h2{
@@ -968,11 +975,11 @@ font-weight: 500;
 .page6 form{
  
     background: white;
-    margin: -100px 10px;
+    margin: -80px 10px;
     padding: 20px;
     width: 94%;
 
- 
+
 }
 .page6 form p{
     font-size: 20px;
@@ -1403,7 +1410,7 @@ text-align: justify;
 
     .page9 .right0 img{
         float: right;
-        height: 370px;
+        
         width: 50%;
         }
 
@@ -1550,7 +1557,7 @@ text-align: justify;
     }
     .page11 img{
         width: 100%;
-        height: 350px;
+        height: 500px;
     }
 }
 
